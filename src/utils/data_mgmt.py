@@ -24,4 +24,3 @@ def process_posts(fd_in, fd_out_train, fd_out_test, target_tag, split):
         except Exception as e:
             msg = f"Skipping the broken line {line_num}: {e}\n"
             logging.exception(msg)
-

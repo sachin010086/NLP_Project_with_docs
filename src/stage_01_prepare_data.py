@@ -8,11 +8,11 @@ from src.utils.data_mgmt import process_posts
 import random
 
 
-STAGE = "Prepare_data" ## <<< change stage name
+STAGE = "Prepare_data" ## <<< change stage name 
 
 logging.basicConfig(
-    filename=os.path.join("logs", 'running_logs.log'),
-    level=logging.INFO,
+    filename=os.path.join("logs", 'running_logs.log'), 
+    level=logging.INFO, 
     format="[%(asctime)s: %(levelname)s: %(module)s]: %(message)s",
     filemode="a"
     )
